@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo
+    name: passkeys-sample
   main:
     banner-mode: off
   profiles:
@@ -10,3 +10,5 @@ logging:
   level:
     root: info
     org.springframework: warn
+    org.apache.catalina: warn
+    org.apache.tomcat: warn

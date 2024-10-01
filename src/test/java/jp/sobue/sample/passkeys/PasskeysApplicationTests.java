@@ -1,4 +1,4 @@
-package jp.sobue.demo;
+package jp.sobue.sample.passkeys;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
 @DisplayName("Test ApplicationContext Loading")
-class DemoApplicationTests {
+class PasskeysApplicationTests {
 
   @Autowired
   private ApplicationContext context;

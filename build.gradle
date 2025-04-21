@@ -38,7 +38,7 @@ dependencies {
     implementation('com.yubico:webauthn-server-core:2.6.0') {
         exclude group: 'com.google.guava', module: 'guava'
     }
-    implementation 'com.google.guava:guava:33.4.0-jre'
+    implementation 'com.google.guava:guava:33.4.8-jre'
 
     // Utilities
     compileOnly 'org.projectlombok:lombok'

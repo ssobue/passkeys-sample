@@ -8,10 +8,8 @@ plugins {
 group = 'jp.sobue.demo'
 version = '0.0.1-SNAPSHOT'
 
-// fix for https://security.snyk.io/vuln/SNYK-JAVA-ORGXMLUNIT-6751676
-ext['xmlunit2.version'] = '2.10.0'
-// fix for https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078
-ext['commons-lang3.version'] = '3.18.0'
+// https://github.com/advisories/GHSA-rqfh-9r24-8c9r
+ext['assertj.version'] = '3.27.7'
 
 java {
     sourceCompatibility = '21'

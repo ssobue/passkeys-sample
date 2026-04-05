@@ -11,6 +11,9 @@ version = '0.0.1-SNAPSHOT'
 // https://github.com/advisories/GHSA-rqfh-9r24-8c9r
 ext['assertj.version'] = '3.27.7'
 
+// https://github.com/advisories/GHSA-2m67-wjpj-xhg9
+ext['jackson-bom.version'] = '3.1.1'
+
 java {
     sourceCompatibility = '21'
 }
